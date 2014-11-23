@@ -2,7 +2,6 @@ require 'sinatra'
 require 'sinatra/activerecord'
 require './environments'
 require 'json'
-require 'pry'
 
 class Quote < ActiveRecord::Base; end
 
